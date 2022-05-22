@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Jordan</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <main>
+      <div class="titulos">
+        <h1>Mi nombre es: Hilary Daffne Benítez González</h1>
+        <h1>Mi jugador favorito es: Michael Jordan</h1>
+      </div>
+      <img src="imagen1.jpg" alt="Michael Jordan" />
+      <div class="menu">
+        <a class="caracteristicas" href="https://es.wikipedia.org/wiki/Michael_Jordan#:~:text=Michael%20Jeffrey%20Jordan%20(Nueva%20York,baloncesto%20de%20todos%20los%20tiempos.">Más sobre él...</a>
+        <p>Nombre: Michael Jeffrey Jordan</p>
+        <p>Edad: 59 años</p>
+        <p>Estatura: 1.98 m</p>
+      </div>
+      <form class="formulario" name="formulario-js" onsubmit="validar()">
+        <label for="nombre"> Nombre: </label>
+        <input id="nombre"type="text"name="nombre" placeholder="Introduce tu nombre" required/>
+        <br>
+        <label for="edad"> Edad: </label>
+        <input id="edad" type="text" name="edad" placeholder="Introduce tu edad" required/>
+        <br>
+        <label for="opciones"> Te gustó mi página?</label>
+        <input id="opciones" type="radio" name="opciones" value="si" required/> Si
+        <input id="opciones" type="radio" name="opciones" value="no" required/> No
+        <br>
+        <button type="submit"class="boton">Enviar</button>
+      </form>
+    </main>
+    <script src="ordinario.js"></script>
+  </body>
+</html>
